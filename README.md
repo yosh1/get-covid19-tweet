@@ -25,6 +25,12 @@ $ pip3 install
 $ python3 main.py
 ```
 
+### checking duplicate data
+
+```
+$ python3 check.py <ARG1: filename>
+```
+
 ## License
 
 See `./LICENSE.md`
