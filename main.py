@@ -18,7 +18,7 @@ api = tweepy.API(auth)
  
 q = "コロナ 元気"
 count = 1000000000
-files = "./test.txt"
+files = "./train.txt"
 tweet_list= ''
  
 tweets = api.search(q=q, locale="ja", count=count,tweet_mode='extended')
